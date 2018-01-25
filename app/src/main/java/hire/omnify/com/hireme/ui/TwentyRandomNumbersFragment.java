@@ -8,7 +8,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import hire.omnify.com.hireme.R;
-import hire.omnify.com.hireme.data.NumberAssets;
 
 /**
  * Created by sunilkumar on 20/01/18.
@@ -28,7 +27,7 @@ public class TwentyRandomNumbersFragment extends Fragment {
 
         TextView textView = (TextView) rootView.findViewById(R.id.text_view_random_number);
 
-        textView.setText(NumberAssets.getRandomNumArray().get(0).toString());
+        textView.setText("");
 
         return rootView;
     }

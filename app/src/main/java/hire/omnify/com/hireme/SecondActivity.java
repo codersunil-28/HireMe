@@ -8,6 +8,8 @@ import hire.omnify.com.hireme.ui.TwentySortedNumbersFragment;
 
 public class SecondActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,5 +21,6 @@ public class SecondActivity extends AppCompatActivity {
 
         fragmentManager.beginTransaction().add(R.id.sorted_num_container,twentySortedNumbersFragment)
                 .commit();
+
     }
 }
